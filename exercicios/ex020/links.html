@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* > SELETORES PERSONALIZADOS
+            # = id
+            . = class
+            : = pseudoclass
+            :: = pseudoelement
+            > children
+        */
+            a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:visited {
+        color: darkred;
+    }
+
+    a:hover {
+        color: yellow;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: rgb(255, 115, 0);
+    }
+
+    a::before{
+
+        content: '»';
+    }
+    
+    a::after{
+
+        content: '«';
+        
+    }
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+        <ul>
+            <li class="lista"><a href="https://github.com/chillSgg?tab=repositories" target="_blank">Repositorio GITHUB</a></li>
+            <li class="lista"><a href="https://www.youtube.com/@drak_nm" target="_blank">CANAL DO YOUTUBE</a></li>
+            <li class="lista"><a href="https://www.instagram.com/lohanssv/" target="_blank">SITE DO CURSO EM VIDEO</a></li>
+        </ul>
+</body>
+</html>

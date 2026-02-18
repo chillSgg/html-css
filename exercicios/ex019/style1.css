@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+
+    background-color: #b7dfd5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1.principal{
+
+    background-color: #265C4B;
+    text-align: center;
+    font-weight: bold;
+    color:#b7dfd5;
+}
+
+.principal:hover{
+
+    background-color: yellowgreen;
+}
+
+.basico{
+
+    color: #146551;
+    font-weight: bold;
+}
+
+.intermed{
+
+    color: #246514;
+    font-weight: bold;
+}
+
+.avanc{
+
+    color: #654214;
+    font-weight: bold;
+}
+
+.destaque{
+
+    background-color: rgba(202, 206, 146, 0.384);
+}
